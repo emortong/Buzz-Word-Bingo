@@ -1,0 +1,32 @@
+{
+  "name": "Buzz-Word-Bingo",
+  "version": "1.0.0",
+  "description": "**About the game**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emortong/Buzz-Word-Bingo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emortong/Buzz-Word-Bingo/issues"
+  },
+  "xo": {
+      "esnext": true,
+      "space": true,
+      "globals": [
+        "window"
+      ]
+    },
+  "homepage": "https://github.com/emortong/Buzz-Word-Bingo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
